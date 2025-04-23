@@ -43,3 +43,33 @@
 # a = a.split()
 # print(int(a[0])int(a[1])/b**2)
 # test 6
+# a = [
+#     [0, 0, 0, 0, 0],
+#     [0, 0, 0, 0, 0],
+#     [0, 0, 1, 0, 0],
+#     [0, 0, 0, 0, 0],
+#     [0, 0, 0, 0, 0]
+# ]
+# for i in range(5):
+#     for j in range(5):
+#        if a[i][j] == 1:
+#            print(abs(i-2)+abs(j-2))
+# test 7
+# a  = input('enter some letters ').lower()
+# b = input('enter some letters ').lower()
+# if a > b:
+#     print(1)
+# elif a == b:
+#     print(0)
+# else:
+#     print(-1)
+# test 8
+# a = input('enter operation of sum: ').split()
+# def sort(a):
+#     b = len(a)-1
+#     for i in range(b):
+#         for j in range(0,b - i):
+#             if int(a[j]) > int(a[j+2]):
+#                 a[j],a[j+2] = a[j+2],a[j]
+#     return a
+# print(sort(a))
