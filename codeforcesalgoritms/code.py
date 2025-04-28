@@ -73,3 +73,10 @@
 #                 a[j],a[j+2] = a[j+2],a[j]
 #     return a
 # print(sort(a))
+#test 9
+a = input('write some letters ').replace(' ','')
+b = len(a)
+if b % 2 == 0:
+    print('CHAT WITH HER!')
+else:
+    print('IGNORE HIM!')    
