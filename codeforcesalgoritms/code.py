@@ -90,12 +90,21 @@
 # else:
 #     print('its enough')
 # test 11
-a = input('entaer any word ')
-b=sum(1 for i in a if i.isupper())
-c=sum(1 for i in a if i.islower())
-if b>c:
-    print(a.upper())
-elif b == c:
-    print('crowd of UPPER and lower letters is equal')
-else:
-    print(a.lower())        
+# a = input('entaer any word ')
+# b=sum(1 for i in a if i.isupper())
+# c=sum(1 for i in a if i.islower())
+# if b>c:
+#     print(a.upper())
+# elif b == c:
+#     print('crowd of UPPER and lower letters is equal')
+# else:
+#     print(a.lower())  
+# test 12      
+# a = int(input('enter number '))
+# b = int(input('enter number of tries '))
+# for _ in range(b):
+#     if a % 10 != 0:
+#         a -= 1
+#     else:
+#         a //= 10
+# print(a)        
