@@ -89,3 +89,13 @@
 #     print(e-b)
 # else:
 #     print('its enough')
+# test 11
+a = input('entaer any word ')
+b=sum(1 for i in a if i.isupper())
+c=sum(1 for i in a if i.islower())
+if b>c:
+    print(a.upper())
+elif b == c:
+    print('crowd of UPPER and lower letters is equal')
+else:
+    print(a.lower())        
