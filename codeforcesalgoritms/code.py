@@ -74,9 +74,18 @@
 #     return a
 # print(sort(a))
 #test 9
-a = input('write some letters ').replace(' ','')
-b = len(a)
-if b % 2 == 0:
-    print('CHAT WITH HER!')
-else:
-    print('IGNORE HIM!')    
+# a = input('write some letters ').replace(' ','')
+# b = len(a)
+# if b % 2 == 0:
+#     print('CHAT WITH HER!')
+# else:
+#     print('IGNORE HIM!')    
+# test 10
+# a = int(input('enter value of first banan: '))
+# b = int(input('enter number how much money do you have: '))
+# c = int(input('enter number how much do you want: '))
+# e = a * c * (c + 1) // 2
+# if e>b:
+#     print(e-b)
+# else:
+#     print('its enough')
