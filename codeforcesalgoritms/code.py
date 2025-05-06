@@ -116,3 +116,13 @@
 #     if i not in {'4','7'}:
 #         c = 'NO'
 # print(c)
+# test 14
+a = input('enter how much who wins ').lower()
+b = a.count('a')
+c = a.count('d')
+if b > c:
+    print('Anton')
+elif b == c:
+    print('its imposibble because of if')
+else:
+    print('Danik')    
