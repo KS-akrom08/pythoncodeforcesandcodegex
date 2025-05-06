@@ -108,3 +108,11 @@
 #     else:
 #         a //= 10
 # print(a)        
+# test 13
+# a = input('enter any number ')
+# b = set(a)
+# c = 'YES'
+# for i in b:
+#     if i not in {'4','7'}:
+#         c = 'NO'
+# print(c)
