@@ -132,3 +132,10 @@
 # while len(set(str(a))) != len(str(a)):
 #     a += 1
 # print(a)
+# test 16
+a = input('tipp menge von umfragenden ')
+b = input('tipp menge von antwortenden ')
+if b.count('1')>0:
+    print('HARD')
+else:
+    print('EASY')
