@@ -117,12 +117,18 @@
 #         c = 'NO'
 # print(c)
 # test 14
-a = input('enter how much who wins ').lower()
-b = a.count('a')
-c = a.count('d')
-if b > c:
-    print('Anton')
-elif b == c:
-    print('its imposibble because of if')
-else:
-    print('Danik')    
+# a = input('enter how much who wins ').lower()
+# b = a.count('a')
+# c = a.count('d')
+# if b > c:
+#     print('Anton')
+# elif b == c:
+#     print('its imposibble because of if')
+# else:
+#     print('Danik')    
+# test 15
+# a = int(input('enter any year '))+1
+
+# while len(set(str(a))) != len(str(a)):
+#     a += 1
+# print(a)
