@@ -133,9 +133,17 @@
 #     a += 1
 # print(a)
 # test 16
-a = input('tipp menge von umfragenden ')
-b = input('tipp menge von antwortenden ')
-if b.count('1')>0:
-    print('HARD')
+# a = input('tipp menge von umfragenden ')
+# b = input('tipp menge von antwortenden ')
+# if b.count('1')>0:
+#     print('HARD')
+# else:
+#     print('EASY')
+# test 17
+a = input('enter any word ')
+b = input('enter this word conversely ')
+
+if a == b[::-1]:
+    print('YES')
 else:
-    print('EASY')
+    print('NO')
