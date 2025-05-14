@@ -140,10 +140,21 @@
 # else:
 #     print('EASY')
 # test 17
-a = input('enter any word ')
-b = input('enter this word conversely ')
+# a = input('enter any word ')
+# b = input('enter this word conversely ')
 
-if a == b[::-1]:
-    print('YES')
-else:
-    print('NO')
+# if a == b[::-1]:
+#     print('YES')
+# else:
+#     print('NO')
+# test 18
+# a = input('enter number of friends and height of borrow: ').split()
+# b = input('enter height of friends: ').split()
+# wth = 0
+# for i in b:
+#     if int(i) >=int(a[1]):
+#         wth += 2 
+#     else:
+#         wth += 1
+# print(wth)                
+# add import math and use in else wth += math.ceil(i / h)        
