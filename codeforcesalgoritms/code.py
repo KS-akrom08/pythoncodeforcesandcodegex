@@ -157,4 +157,18 @@
 #     else:
 #         wth += 1
 # print(wth)                
-# add import math and use in else wth += math.ceil(i / h)        
+# add import math and use in else wth += math.ceil(i / h)
+# test 19
+n = int(input())
+
+current_passengers = 0
+max_passengers = 0
+
+for _ in range(n):
+    a, b = map(int, input().split())
+    current_passengers -= a
+    current_passengers += b
+    max_passengers = max(max_passengers, current_passengers)
+
+print(max_passengers)
+        
