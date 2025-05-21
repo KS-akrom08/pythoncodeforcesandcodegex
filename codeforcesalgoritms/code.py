@@ -159,16 +159,27 @@
 # print(wth)                
 # add import math and use in else wth += math.ceil(i / h)
 # test 19
-n = int(input())
+# n = int(input())
 
-current_passengers = 0
-max_passengers = 0
+# current_passengers = 0
+# max_passengers = 0
 
-for _ in range(n):
-    a, b = map(int, input().split())
-    current_passengers -= a
-    current_passengers += b
-    max_passengers = max(max_passengers, current_passengers)
+# for _ in range(n):
+#     a, b = map(int, input().split())
+#     current_passengers -= a
+#     current_passengers += b
+#     max_passengers = max(max_passengers, current_passengers)
 
-print(max_passengers)
-        
+# print(max_passengers)
+# test 20 
+# a = int(input('write number of rooms '))
+# nuber_of_facilities = 0
+# for _ in range(a):
+#       c,d = map(int,input('enter number of current members and max memebers ').split())  
+#       if d - c >=2:
+#         nuber_of_facilities += 1
+#       else:
+#         nuber_of_facilities += 0
+
+
+# print(nuber_of_facilities)        
