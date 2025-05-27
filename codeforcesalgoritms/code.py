@@ -182,4 +182,8 @@
 #         nuber_of_facilities += 0
 
 
-# print(nuber_of_facilities)        
+# print(nuber_of_facilities)
+# test 21
+a = int(input('enter number of stars'))
+for i in range(0,a):
+    print('*' * i)
