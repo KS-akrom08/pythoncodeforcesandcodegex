@@ -184,6 +184,15 @@
 
 # print(nuber_of_facilities)
 # test 21
-a = int(input('enter number of stars'))
-for i in range(0,a):
-    print('*' * i)
+# a = int(input('enter number of stars'))
+# for i in range(0,a):
+#     print('*' * i)
+# test 22
+# a = int(input('enter number of magnits: '))
+# first = input('enter first magnit: ').strip()
+# d = 1
+# for _ in range(a-1):
+#     b = input().strip()
+#     if first != b:
+#         d += 1
+# print(d)        
