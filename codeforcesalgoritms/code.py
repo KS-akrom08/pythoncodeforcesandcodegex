@@ -205,11 +205,19 @@
 #     b.append(i)
 # print(sum(b))  
 # test 24
-a = input('enter number of friends: ')
-c = []
-for _ in range(int(a)):
-    b = input('schreib wer hat wem ein geschenk gegeben: ')
-    c.append(b)      
+# a = input('enter number of friends: ')
+# c = []
+# for _ in range(int(a)):
+#     b = input('schreib wer hat wem ein geschenk gegeben: ')
+#     c.append(b)      
 
-for i,d in enumerate(c, start=1):
-    print(i,d)
+# for i,d in enumerate(c, start=1):
+#     print(i,d)
+# test 25
+a = int(input('enter number of drinks: '))
+c = 0
+for _ in range(a):
+    b = int(input('enter procent of orange juice: '))
+    c += b
+
+print(c/a)    
