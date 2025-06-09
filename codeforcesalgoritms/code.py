@@ -222,9 +222,19 @@
 
 # print(c/a)    
 # test 26
-b= []
-for _ in range(4):
-    a = input('введите цифры подковы: ')
-    b.append(a)
-c = set(b) 
-print(4-len(c))   
+# b= []
+# for _ in range(4):
+#     a = input('введите цифры подковы: ')
+#     b.append(a)
+# c = set(b) 
+# print(4-len(c))   
+# test 27
+a = input('enter first line of numbers: ')
+b = input('enter second line of numbers: ')
+c = ''
+for i , j in zip(a,b):
+    if i == j:
+        c+= '0'
+    else:
+        c+= '1'
+print(c)           
