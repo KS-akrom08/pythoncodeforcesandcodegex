@@ -214,10 +214,17 @@
 # for i,d in enumerate(c, start=1):
 #     print(i,d)
 # test 25
-a = int(input('enter number of drinks: '))
-c = 0
-for _ in range(a):
-    b = int(input('enter procent of orange juice: '))
-    c += b
+# a = int(input('enter number of drinks: '))
+# c = 0
+# for _ in range(a):
+#     b = int(input('enter procent of orange juice: '))
+#     c += b
 
-print(c/a)    
+# print(c/a)    
+# test 26
+b= []
+for _ in range(4):
+    a = input('введите цифры подковы: ')
+    b.append(a)
+c = set(b) 
+print(4-len(c))   
