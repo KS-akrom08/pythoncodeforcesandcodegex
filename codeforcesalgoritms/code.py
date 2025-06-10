@@ -229,12 +229,26 @@
 # c = set(b) 
 # print(4-len(c))   
 # test 27
-a = input('enter first line of numbers: ')
-b = input('enter second line of numbers: ')
-c = ''
-for i , j in zip(a,b):
-    if i == j:
-        c+= '0'
-    else:
-        c+= '1'
-print(c)           
+# a = input('enter first line of numbers: ')
+# b = input('enter second line of numbers: ')
+# c = ''
+# for i , j in zip(a,b):
+#     if i == j:
+#         c+= '0'
+#     else:
+#         c+= '1'
+# print(c)           
+# test 28
+# a = int(input('enter number of words: '))
+# c = a
+# b = ''
+# for i in range(a):
+#     if i % 2 == 0:
+#         b += 'I hate '
+#     else:
+#         b += 'I love '
+#     if i+1 == c:
+#         b += 'it'
+#     else:
+#         b += 'that '
+# print(b)                
