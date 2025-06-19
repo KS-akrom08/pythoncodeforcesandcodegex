@@ -251,4 +251,12 @@
 #         b += 'it'
 #     else:
 #         b += 'that '
-# print(b)                
+# print(b)
+a = int(input('enter number of paares: '))
+for _ in range(a):
+    b,c = map(int,input('enter pair of numbers: ').split())
+    d = b%c
+    if d == 0:
+        print(0)
+    else:
+        print(c-d)
