@@ -252,11 +252,23 @@
 #     else:
 #         b += 'that '
 # print(b)
-a = int(input('enter number of paares: '))
-for _ in range(a):
-    b,c = map(int,input('enter pair of numbers: ').split())
-    d = b%c
-    if d == 0:
-        print(0)
-    else:
-        print(c-d)
+# test 29
+# a = int(input('enter number of paares: '))
+# for _ in range(a):
+#     b,c = map(int,input('enter pair of numbers: ').split())
+#     d = b%c
+#     if d == 0:
+#         print(0)
+#     else:
+#         print(c-d)
+# test 30
+import string
+a = int(input('entaer number of lettters: '))
+b = input('enter letters: ').lower()
+c = set(string.ascii_lowercase)
+d = set(b)
+# print(d)
+if d == c:
+    print('YES')
+else:
+    print('NO')
