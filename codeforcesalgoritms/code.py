@@ -262,13 +262,37 @@
 #     else:
 #         print(c-d)
 # test 30
-import string
-a = int(input('entaer number of lettters: '))
-b = input('enter letters: ').lower()
-c = set(string.ascii_lowercase)
-d = set(b)
-# print(d)
-if d == c:
-    print('YES')
+# import string
+# a = int(input('entaer number of lettters: '))
+# b = input('enter letters: ').lower()
+# c = set(string.ascii_lowercase)
+# d = set(b)
+# # print(d)
+# if d == c:
+#     print('YES')
+# else:
+#     print('NO')
+# test 31
+a = int(input('enter number of levels: '))
+d = []
+for i in range(a):
+    d.append(i+1)
+
+b = int(input('enter number of levels that X can achieve: '))
+e = []
+for _ in range(b):
+    y = int(input('enter levels: '))
+    e.append(y)
+    
+c = int(input('enter number of levels that X can achieve: '))
+r = []
+for _ in range(c):
+    t = int(input('enter levels: '))
+    r.append(t)
+you = [e , r]
+du = [item for sublist in you for item in sublist]
+# print(set(du), set(d))
+if set(d) == set(du):
+    print('I become the guy.')
 else:
-    print('NO')
+    print('Oh,my keyboard!')    
