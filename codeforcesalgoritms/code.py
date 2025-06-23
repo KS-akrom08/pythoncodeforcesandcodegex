@@ -273,26 +273,35 @@
 # else:
 #     print('NO')
 # test 31
-a = int(input('enter number of levels: '))
-d = []
-for i in range(a):
-    d.append(i+1)
+# a = int(input('enter number of levels: '))
+# d = []
+# for i in range(a):
+#     d.append(i+1)
 
-b = int(input('enter number of levels that X can achieve: '))
-e = []
-for _ in range(b):
-    y = int(input('enter levels: '))
-    e.append(y)
+# b = int(input('enter number of levels that X can achieve: '))
+# e = []
+# for _ in range(b):
+#     y = int(input('enter levels: '))
+#     e.append(y)
     
-c = int(input('enter number of levels that X can achieve: '))
-r = []
-for _ in range(c):
-    t = int(input('enter levels: '))
-    r.append(t)
-you = [e , r]
-du = [item for sublist in you for item in sublist]
-# print(set(du), set(d))
-if set(d) == set(du):
-    print('I become the guy.')
-else:
-    print('Oh,my keyboard!')    
+# c = int(input('enter number of levels that X can achieve: '))
+# r = []
+# for _ in range(c):
+#     t = int(input('enter levels: '))
+#     r.append(t)
+# you = [e , r]
+# du = [item for sublist in you for item in sublist]
+# # print(set(du), set(d))
+# if set(d) == set(du):
+#     print('I become the guy.')
+# else:
+#     print('Oh,my keyboard!')
+# test 32
+a = [10,58,31,63,40,76]
+b = min(a)
+c = max(a)
+d = a.index(b)
+e = a.index(c)
+f = len(a)-1
+print((f-d)+e)
+
