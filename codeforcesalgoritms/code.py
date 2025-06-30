@@ -305,9 +305,13 @@
 # f = len(a)-1
 # print((f-d)+e)
 # test 33
-a = int(input('enter number of money: '))
-b = 0
-for i in [100, 20, 10, 5, 1]:
-    b += a // i
-    a = a % i
-print(b)    
+# a = int(input('enter number of money: '))
+# b = 0
+# for i in [100, 20, 10, 5, 1]:
+#     b += a // i
+#     a = a % i
+# print(b)
+# test 34
+# a = input('enter letters: ').split()
+# b = set(a)
+# print(len(b))
