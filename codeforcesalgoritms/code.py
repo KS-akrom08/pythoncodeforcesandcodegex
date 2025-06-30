@@ -297,11 +297,17 @@
 # else:
 #     print('Oh,my keyboard!')
 # test 32
-a = [10,58,31,63,40,76]
-b = min(a)
-c = max(a)
-d = a.index(b)
-e = a.index(c)
-f = len(a)-1
-print((f-d)+e)
-
+# a = [10,58,31,63,40,76]
+# b = min(a)
+# c = max(a)
+# d = a.index(b)
+# e = a.index(c)
+# f = len(a)-1
+# print((f-d)+e)
+# test 33
+a = int(input('enter number of money: '))
+b = 0
+for i in [100, 20, 10, 5, 1]:
+    b += a // i
+    a = a % i
+print(b)    
