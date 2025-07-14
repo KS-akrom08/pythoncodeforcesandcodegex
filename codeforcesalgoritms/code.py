@@ -73,7 +73,7 @@
 #                 a[j],a[j+2] = a[j+2],a[j]
 #     return a
 # print(sort(a))
-#test 9
+# test 9
 # a = input('write some letters ').replace(' ','')
 # b = len(a)
 # if b % 2 == 0:
@@ -328,4 +328,25 @@
 #     for j in range(a):
 #         if u != j and b[u] == i[j]:
 #             count += 1
-# print(count)            
+# print(count)   
+# test 35
+# n = int(input('enter number of tests: '))
+# a = []
+# count = 0
+# for _ in range(n):
+#     b = int(input('enter number of candys:'))
+#     a.append(b)
+# for i in a:
+#     count += (i-1)//2
+#     print((i-1)//2)
+# print(count)    
+a = int(input(''))
+for i in range(a):
+    if i % 2 == 0:
+        print('#'*a)
+    elif i == a - 1:
+        print('#'*a)    
+    elif i % 2 != 0:
+        print('.'*(a-1)+'#')
+    else:
+        print('#'+'.'*(a-1))        
