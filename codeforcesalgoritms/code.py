@@ -315,3 +315,17 @@
 # a = input('enter letters: ').split()
 # b = set(a)
 # print(len(b))
+# test 35
+# a = int(input('enter number of games: '))
+# h = []
+# i = []
+# count = 0
+# for _ in range(a):
+#     b , c  = map(int,input('enter uniform ').split())
+#     h.append(b)
+#     i.append(c)
+# for u in range(a):
+#     for j in range(a):
+#         if u != j and b[u] == i[j]:
+#             count += 1
+# print(count)            
