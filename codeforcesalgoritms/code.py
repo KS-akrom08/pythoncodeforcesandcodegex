@@ -340,13 +340,23 @@
 #     count += (i-1)//2
 #     print((i-1)//2)
 # print(count)    
-a = int(input(''))
-for i in range(a):
-    if i % 2 == 0:
-        print('#'*a)
-    elif i == a - 1:
-        print('#'*a)    
-    elif i % 2 != 0:
-        print('.'*(a-1)+'#')
-    else:
-        print('#'+'.'*(a-1))        
+# a = int(input(''))
+# for i in range(a):
+#     if i % 2 == 0:
+#         print('#'*a)
+#     elif i == a - 1:
+#         print('#'*a)    
+#     elif i % 2 != 0:
+#         print('.'*(a-1)+'#')
+#     else:
+#         print('#'+'.'*(a-1)) 
+from collections import Counter
+a = input('enter name of guest: ').upper()
+b = input('enter name of owner: ').upper()
+c = input('enter letters you have found: ').upper()
+d = Counter(a+b)
+e = Counter(c)
+if d == e:
+    print('YES')
+else:
+    print('NO')
