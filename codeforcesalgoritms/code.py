@@ -339,7 +339,8 @@
 # for i in a:
 #     count += (i-1)//2
 #     print((i-1)//2)
-# print(count)    
+# print(count) 
+# test 36   
 # a = int(input(''))
 # for i in range(a):
 #     if i % 2 == 0:
@@ -350,13 +351,33 @@
 #         print('.'*(a-1)+'#')
 #     else:
 #         print('#'+'.'*(a-1)) 
-from collections import Counter
-a = input('enter name of guest: ').upper()
-b = input('enter name of owner: ').upper()
-c = input('enter letters you have found: ').upper()
-d = Counter(a+b)
-e = Counter(c)
-if d == e:
-    print('YES')
-else:
-    print('NO')
+# test 37
+# from collections import Counter
+# a = input('enter name of guest: ').upper()
+# b = input('enter name of owner: ').upper()
+# c = input('enter letters you have found: ').upper()
+# d = Counter(a+b)
+# e = Counter(c)
+# if d == e:
+#     print('YES')
+# else:
+#     print('NO')
+# test 38
+# for numbers to 4
+# a = int(input('enter number of tests: '))
+# for _ in range(a):
+#     b = int(input('enter a numbers:'))
+#     c = (b//1000)*1000
+#     d = (b//100)%10*100
+#     e = (b//10)%10*10
+#     f = b%10
+#     print(f'{c}+{d}+{e}+{f}')
+    # for bigger ones
+    #     length = len(n)
+    # result = []
+    # for i, digit in enumerate(n):
+    #     if digit != '0':
+    #         value = int(digit) * (10 ** (length - i - 1))
+    #         result.append(str(value))
+    # print(len(result))
+    # print(' '.join(result))
