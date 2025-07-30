@@ -381,3 +381,22 @@
     #         result.append(str(value))
     # print(len(result))
     # print(' '.join(result))
+# test 39 
+a = int(input('enter position of 1 friend: '))
+b = int(input('enter position of 2 friend: '))
+c = int(input('enter position of 3 friend: '))
+d = [a,b,c]
+d.sort()
+print((d[1]-d[0])+(d[2]-d[1]))
+# if a<b and a<c and c == e:
+#     print((b-a)+(a-c))
+# elif b<a and b<c and c == e:
+#     print((a-b)+(b-c))
+# elif c<a and c<b and a == e:   
+#     print((c-a)+(b-c))
+# elif a<b and a<c and b == e:
+#     print((a-b)+(a-c))
+# elif b<a and b<c and a == e:
+#     print((b-a)+(b-c))
+# elif c<a and c<b and b == e:   
+#     print((a-c)+(c-b))
