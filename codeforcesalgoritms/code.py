@@ -382,12 +382,12 @@
     # print(len(result))
     # print(' '.join(result))
 # test 39 
-a = int(input('enter position of 1 friend: '))
-b = int(input('enter position of 2 friend: '))
-c = int(input('enter position of 3 friend: '))
-d = [a,b,c]
-d.sort()
-print((d[1]-d[0])+(d[2]-d[1]))
+# a = int(input('enter position of 1 friend: '))
+# b = int(input('enter position of 2 friend: '))
+# c = int(input('enter position of 3 friend: '))
+# d = [a,b,c]
+# d.sort()
+# print((d[1]-d[0])+(d[2]-d[1]))
 # if a<b and a<c and c == e:
 #     print((b-a)+(a-c))
 # elif b<a and b<c and c == e:
@@ -400,3 +400,13 @@ print((d[1]-d[0])+(d[2]-d[1]))
 #     print((b-a)+(b-c))
 # elif c<a and c<b and b == e:   
 #     print((a-c)+(c-b))
+#test 40
+a = int(input('enter count of iterations: '))
+for _ in range(a):
+    b = int(input('enter first number: '))
+    c = int(input('enter second number: '))
+    d = int(input('enter third number which you think is the summ of other two: '))
+    if b+c == d:
+        print('yes')
+    else:
+        print('no')
