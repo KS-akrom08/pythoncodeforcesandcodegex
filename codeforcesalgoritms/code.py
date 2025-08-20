@@ -428,20 +428,33 @@
 #         d += i
 # print(h)      
 # test 42
-n = int(input('emter number of friends: '))
-k = int(input('enter nubber of botles: '))
-l = int(input('enter number of ml of botles: '))
-c = int(input('enter number of limes: ')) 
-d = int(input('enter number of slices of lime: '))
-p = int(input('enter number of salt: '))
-nl = int(input('enter number of ml of drink for one friend: '))
-np = int(input('enter number of salt for one friend: '))
+# n = int(input('emter number of friends: '))
+# k = int(input('enter nubber of botles: '))
+# l = int(input('enter number of ml of botles: '))
+# c = int(input('enter number of limes: ')) 
+# d = int(input('enter number of slices of lime: '))
+# p = int(input('enter number of salt: '))
+# nl = int(input('enter number of ml of drink for one friend: '))
+# np = int(input('enter number of salt for one friend: '))
 
-total_ml = k*l
-total_slices = c*d
-total_salt = p
-toast_drink = total_ml//(nl*n)
-salt_drink = total_salt // (np*n)
-toast_l = total_slices // n
-toasts = min(toast_drink, toast_l, salt_drink)
-print(toasts)
+# total_ml = k*l
+# total_slices = c*d
+# total_salt = p
+# toast_drink = total_ml//(nl*n)
+# salt_drink = total_salt // (np*n)
+# toast_l = total_slices // n
+# toasts = min(toast_drink, toast_l, salt_drink)
+# print(toasts)
+# test 43
+a = int(input('enter number of tasks: '))
+b = int(input('entr how much time you need to get to home: '))
+c = 0
+e = []
+for i in range(1,a+1):
+    c += i*5
+    e.append(i*5) 
+d = 240 - b
+while c > d and e:
+    c -= e.pop()
+print(len(e))   
+    
