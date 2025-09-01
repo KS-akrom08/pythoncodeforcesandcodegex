@@ -446,15 +446,24 @@
 # toasts = min(toast_drink, toast_l, salt_drink)
 # print(toasts)
 # test 43
-a = int(input('enter number of tasks: '))
-b = int(input('entr how much time you need to get to home: '))
-c = 0
-e = []
-for i in range(1,a+1):
-    c += i*5
-    e.append(i*5) 
-d = 240 - b
-while c > d and e:
-    c -= e.pop()
-print(len(e))   
+# a = int(input('enter number of tasks: '))
+# b = int(input('entr how much time you need to get to home: '))
+# c = 0
+# e = []
+# for i in range(1,a+1):
+#     c += i*5
+#     e.append(i*5) 
+# d = 240 - b
+# while c > d and e:
+#     c -= e.pop()
+# print(len(e))   
+# test 44
+a = int(input('enter number of words: '))
+c = 'YES'
+for _ in range(a):
+    b = input('enter word: ')
+    if b.upper() == c:
+        print('YES')
+    else:
+        print('NO')
     
