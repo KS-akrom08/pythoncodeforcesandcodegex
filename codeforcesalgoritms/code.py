@@ -458,12 +458,20 @@
 #     c -= e.pop()
 # print(len(e))   
 # test 44
-a = int(input('enter number of words: '))
-c = 'YES'
-for _ in range(a):
-    b = input('enter word: ')
-    if b.upper() == c:
-        print('YES')
-    else:
-        print('NO')
-    
+# a = int(input('enter number of words: '))
+# c = 'YES'
+# for _ in range(a):
+#     b = input('enter word: ')
+#     if b.upper() == c:
+#         print('YES')
+#     else:
+#         print('NO')
+# test 45
+a = int(input('enter price of one item:' ))
+b = int(input('enter your unique coin:' ))
+
+for i in range(1,11):
+   if (i * a) % 10 == 0 or (i * a) % 10 == b:
+      print(i)
+      break
+      
