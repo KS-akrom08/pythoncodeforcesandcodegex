@@ -467,11 +467,13 @@
 #     else:
 #         print('NO')
 # test 45
-a = int(input('enter price of one item:' ))
-b = int(input('enter your unique coin:' ))
+# a = int(input('enter price of one item:' ))
+# b = int(input('enter your unique coin:' ))
 
-for i in range(1,11):
-   if (i * a) % 10 == 0 or (i * a) % 10 == b:
-      print(i)
-      break
-      
+# for i in range(1,11):
+#    if (i * a) % 10 == 0 or (i * a) % 10 == b:
+#       print(i)
+#       break
+# test 46
+a = int(input('enter number: '))
+print(5**a)
