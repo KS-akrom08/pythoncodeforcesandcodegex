@@ -475,5 +475,32 @@
 #       print(i)
 #       break
 # test 46
-a = int(input('enter number: '))
-print(5**a)
+# a = int(input('enter number: '))
+# print(5**a)
+a = int(input('enter number of matchs: '))
+match_points = []
+
+score = 0
+for _ in range(a):
+    b = int(input('enter score: '))
+    match_points.append(b)
+min = match_points[0]
+max = match_points[0]
+for i in match_points[1:]:
+    if i > min and i < max:
+        score += 0
+    elif i>max:
+        score += 1
+        max = i
+    elif i< min:
+        score += 1
+        min = i
+    else:
+        score += 0
+    
+print(score)        
+    
+    
+    
+
+   
